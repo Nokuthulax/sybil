@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="message">
+        Hello world
+        </div>
+        <div>
+            <button type="button" class="green" onclick="thabzo();">click Me</button>
+        </div>
+        <script>
+            function thabzo(noksMessage) {
+                noksMessage = document.getElementById("message").innerHTMl;
+                alert (noksMessage);
+                document.write (noksMessage);
+            }
+        </script>
+</body>
+</html>
